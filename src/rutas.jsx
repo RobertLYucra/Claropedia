@@ -8,7 +8,7 @@ export const rutas = [
     },
     {
         id: 2,
-        title: "Soladura de fibra optica",
+        title: "Soldaduura de fibra optica",
         navigation: "soldadura-fibra",
         type: "ftth",
         desciption: " Soldadura quemadura"
