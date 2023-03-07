@@ -11,11 +11,13 @@ const Home = () => {
   return (
     <div>
       <Navegacion />
+      <div style={{transform:"translateY(120px)"}}>
       <Routes>
         <Route path="/" element={<ProtectedRoute> <Inicio /></ProtectedRoute>} />
         <Route path="/soldadura-fibra" element={<ProtectedRoute> <SoldaduraFibra /></ProtectedRoute>} />
         <Route path="/instalación-paquetes" element={<ProtectedRoute> <SoldaduraFibra /></ProtectedRoute>} />
       </Routes>
+      </div>
     
     </div>
   )

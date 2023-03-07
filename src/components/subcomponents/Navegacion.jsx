@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import "./navbar.css"
 import { useAuth } from "../../context/authContext"
 
-
 import {useState} from 'react'
 
 export const Navegacion = () => {
@@ -15,7 +14,8 @@ export const Navegacion = () => {
   const handleLogout = async () => {
     await logout()
   }
-  if (loading) return <h1>Loading</h1>
+  //pantalla de carga
+  if (loading) return <h1>hola</h1>
 
 
   const [active, setActive] = useState(false);

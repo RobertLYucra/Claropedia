@@ -26,7 +26,7 @@ export const rutas = [
         id: 4,
         title: "Imprimir carnet",
         navigation: "imprimir-carnet",
-        type: "hfc",
+        type: "ftth",
         desciption: " Impresión de carnet"
     }
     ,
@@ -42,7 +42,7 @@ export const rutas = [
         id: 6,
         title: "Quitar animales",
         navigation: "revision-cable",
-        type: "hfc",
+        type: "ftth",
         desciption: " Revision de cable"
     }
 ]
