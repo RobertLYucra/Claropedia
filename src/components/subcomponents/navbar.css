@@ -78,8 +78,12 @@ header {
     width: 75%;
     margin: 10px auto;
     font-weight: bold;
-    
   }
+  
+  header{
+  height: 80px;
+  }
+  
   .navbar {
     position: relative;
   }
