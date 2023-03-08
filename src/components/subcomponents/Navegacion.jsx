@@ -43,7 +43,7 @@ export const Navegacion = () => {
                 </li>
                 <li className='list'>
                      <p style={{color: "white"}}> {user.email}</p>
-                      <button onClick={handleLogout}>Logout</button>
+                      <button className='btn' onClick={handleLogout}>Logout</button>
                 </li>
         
             </ul>
